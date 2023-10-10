@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>FinalProject</display-name>
+
+  <servlet>
+    <description></description>
+    <display-name>LoginControl</display-name>
+    <servlet-name>LoginControl</servlet-name>
+    <servlet-class>LoginControl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginControl</servlet-name>
+    <url-pattern>/LoginControl</url-pattern>
+  </servlet-mapping>
+  
+  
+     <servlet>
+    <description></description>
+    <display-name>NewEntry</display-name>
+    <servlet-name>NewEntry</servlet-name>
+    <servlet-class>NewEntry</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NewEntry</servlet-name>
+    <url-pattern>/NewEntry</url-pattern>
+  </servlet-mapping>
+  
+       <servlet>
+    <description></description>
+    <display-name>insertPage</display-name>
+    <servlet-name>insertPage</servlet-name>
+    <servlet-class>insertPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>insertPage</servlet-name>
+    <url-pattern>/insertPage</url-pattern>
+  </servlet-mapping>
+  
+        <servlet>
+    <description></description>
+    <display-name>deletion</display-name>
+    <servlet-name>deletion</servlet-name>
+    <servlet-class>Deletion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deletion</servlet-name>
+    <url-pattern>/deletion</url-pattern>
+  </servlet-mapping>
+  
+          <servlet>
+    <description></description>
+    <display-name>viewdata</display-name>
+    <servlet-name>viewdata</servlet-name>
+    <servlet-class>Viewdata</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>viewdata</servlet-name>
+    <url-pattern>/viewdata</url-pattern>
+  </servlet-mapping>
+</web-app>
